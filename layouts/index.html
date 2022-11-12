@@ -5,7 +5,9 @@
 	<body>
 		<ul>
 		{{ range .Site.RegularPages }}
-			{{ .Title }}
+			<li>
+				{{ .Title }}
+			</li>
 		{{ end }}
 		</ul>
 	</body>
