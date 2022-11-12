@@ -6,7 +6,9 @@
 		<ul>
 		{{ range .Site.RegularPages }}
 			<li>
-				{{ .Title }}
+				<a href="./posts/{{ .Permalink }}">
+					{{ .Title }}
+				</a>
 			</li>
 		{{ end }}
 		</ul>
