@@ -1,1 +1,17 @@
-hello
+<html>
+	<head>
+		<title>{{ .Title }}</title>
+	</head>
+	<body>
+		{{ partial "nav-bar.html" . }}
+		<ul>
+		{{ range .Site.RegularPages }}
+			<li>
+				<a href="{{ .RelPermalink }}">
+					{{ .Title }}
+				</a>
+			</li>
+		{{ end }}
+		</ul>
+	</body>
+</html>
