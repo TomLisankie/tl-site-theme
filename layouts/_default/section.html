@@ -1,9 +1,10 @@
 <html>
 	<head>
-		<title>{{ .Title }}</title>
+		<title>{{ .Title }} | {{ .Site.Title }}</title>
 	</head>
 	<body>
 		{{ partial "nav-bar.html" . }}
+		<h2> {{ .Title }} </h2>
 		<ul>
 		{{ range .Pages }}
 			<li>
