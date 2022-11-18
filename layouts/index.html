@@ -5,7 +5,7 @@
 	<body>
 		{{ partial "nav-bar.html" . }}
 		<ul>
-		{{ range where .Site.Pages "Section" "posts" "Title" "!=" "Posts" }}
+		{{ range where (where .Site.Pages "Section" "posts") "Title" "!=" "Posts" }}
 			<li>
 				<a href="{{ .RelPermalink }}">
 					{{ .Title }}
