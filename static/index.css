@@ -29,4 +29,5 @@ footer {
 
 #nav-bar-links {
 	list-style: none;
+	display: inline-block;
 }
