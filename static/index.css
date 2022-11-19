@@ -1,6 +1,7 @@
 #home-page-link {
 	color: darkblue;
 	text-decoration: none;
+	size: 2em;
 }
 
 #home-page-link:hover {
