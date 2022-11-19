@@ -1,7 +1,7 @@
 <html>
 	<head>
 		<title>{{ .Title }} | {{ .Site.Title }}</title>
-		<link rel="stylesheet" href="/index.css" />
+		{{ partial "styles.html" . }}
 	</head>
 	<body>
 		{{ partial "nav-bar.html" . }}
