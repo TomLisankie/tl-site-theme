@@ -37,5 +37,5 @@ footer {
 }
 
 #nav-bar-links > li:not(:last-child) {
-	border-right: 1px solid darkblue;
+	border-right: 2px solid darkblue;
 }
