@@ -14,3 +14,7 @@ a:hover {
 footer {
 	font-size: 0.70em;
 }
+
+#home-page-posts {
+	list-style: none;
+}
