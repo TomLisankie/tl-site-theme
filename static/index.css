@@ -41,5 +41,5 @@ footer {
 }
 
 nav {
-	display: inline-block;
+	display: table-cell;
 }
