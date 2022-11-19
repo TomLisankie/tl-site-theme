@@ -40,6 +40,6 @@ footer {
 	border-right: 2px solid darkblue;
 }
 
-nav {
-	display: table-cell;
+nav > div {
+	display: inline-block;
 }
