@@ -1,9 +1,12 @@
-#home-page-link {
-	color: darkblue;
+a {
+	color: lightblue;
 	text-decoration: none;
+}
+
+#home-page-link {
 	font-size: 2em;
 }
 
-#home-page-link:hover {
+a:hover {
 	text-decoration: underline;
 }
