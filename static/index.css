@@ -19,3 +19,7 @@ footer {
 	list-style: none;
 	margin-bottom: 7px;
 }
+
+#home-page-posts > li {
+	margin-bottom: 7px;
+}
