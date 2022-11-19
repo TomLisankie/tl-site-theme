@@ -29,6 +29,7 @@ footer {
 
 #nav-bar-links {
 	list-style: none;
+	float: right;
 }
 
 #nav-bar-links > li {
