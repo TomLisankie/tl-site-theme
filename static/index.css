@@ -35,3 +35,7 @@ footer {
 	display: inline-block;
 	margin-right: 5px;
 }
+
+#nav-bar-links > li:not(:last-child) {
+	border-right: 1px solid blue;
+}
