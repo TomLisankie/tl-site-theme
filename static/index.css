@@ -29,7 +29,6 @@ footer {
 
 #nav-bar-links {
 	list-style: none;
-	float: right;
 }
 
 #nav-bar-links > li {
@@ -39,4 +38,8 @@ footer {
 
 #nav-bar-links > li:not(:last-child) {
 	border-right: 2px solid darkblue;
+}
+
+nav {
+	display: inline-block;
 }
