@@ -26,3 +26,7 @@ footer {
 	margin-bottom: 7px;
 	text-align: center;
 }
+
+#nav-bar-links {
+	list-style: none;
+}
