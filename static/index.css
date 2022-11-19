@@ -18,6 +18,8 @@ footer {
 #home-page-posts {
 	list-style: none;
 	margin-bottom: 7px;
+	margin: auto;
+	width: 50%;
 }
 
 #home-page-posts > li {
