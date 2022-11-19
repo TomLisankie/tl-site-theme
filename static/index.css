@@ -1,9 +1,9 @@
-a#home-page-link {
+#home-page-link {
 	color: green;
 	background-color: red;
 	text-decoration: none;
 }
 
-a#home-page-link:hover {
+#home-page-link:hover {
 	text-decoration: underline;
 }
