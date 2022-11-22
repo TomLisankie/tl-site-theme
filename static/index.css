@@ -17,9 +17,10 @@ footer {
 
 #home-page-posts {
 	list-style: none;
-	margin-bottom: 7px;
 	margin: auto;
 	width: 50%;
+	margin-top: 3em;
+	margin-bottom: 4em;
 }
 
 #home-page-posts > li {
@@ -27,19 +28,22 @@ footer {
 	text-align: center;
 }
 
+nav {
+	display: flex;
+	margin: 1em 3em;
+}
+
 #nav-bar-links {
 	list-style: none;
+	margin: 0.67em;
+	float: right;
 }
 
 #nav-bar-links > li {
 	display: inline-block;
-	padding: 5px;
+	padding: 0px 5px;
 }
 
 #nav-bar-links > li:not(:last-child) {
 	border-right: 2px solid darkblue;
-}
-
-nav > div {
-	display: inline-block;
 }
